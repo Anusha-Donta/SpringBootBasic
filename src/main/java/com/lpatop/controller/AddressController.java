@@ -25,7 +25,9 @@ public class AddressController {
 	}
 	@GetMapping(value="/max")
 	public double getMaxNumberPractice() {
+		System.out.println("hello");
 		return addressService.getMaxNumber();
+		
 	}
 
 }
